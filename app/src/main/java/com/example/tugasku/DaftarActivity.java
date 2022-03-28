@@ -37,15 +37,15 @@ public class DaftarActivity extends AppCompatActivity {
                         edtPassword.getText().toString().isEmpty() ||
                         edtrepass.getText().toString().isEmpty())
                 {
-                    Snackbar.make(view,"Wajib isi seluruh data", Snackbar.LENGTH_LONG).show();
+                    Snackbar.make(view,"Wajib isi seluruh data!", Snackbar.LENGTH_LONG).show();
                 }else{
                     if(edtPassword.getText().toString().equals(edtrepass.getText().toString())){
-                        Toast.makeText(getApplicationContext(), "SCC", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Sukses", Toast.LENGTH_LONG).show();
 
                         Intent i = new Intent(getApplicationContext(),MainActivity.class);
                         startActivity(i);
                     }else{
-                        Snackbar.make(view,"pp sm",Snackbar.LENGTH_LONG).show();
+                        Snackbar.make(view,"Password must match",Snackbar.LENGTH_LONG).show();
                     }
                 }
             }

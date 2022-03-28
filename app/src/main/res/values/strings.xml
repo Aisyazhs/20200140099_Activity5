@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tugasku</string>
+    <string name="app_name">Popup Menu dan Listview</string>
     <string name="tEmail">Email:</string>
     <string name="tPassword">Password:</string>
     <string name="bsignin">Sign-In</string>
@@ -11,4 +11,11 @@
     <string name="epass">Masukkan Password</string>
     <string name="erepass">Masukkan Password Kembali</string>
     <string name="ealamat">Masukkan Alamat</string>
+    <string name="nlihat">Lihat Data</string>
+    <string name="nedit">Edit Data</string>
+    <string name="nkontak">Data Kontak</string>
+    <string name="nitem">Nama Item</string>
+    <string name="ndetail">Detail Kontak</string>
+    <string name="tnama">Nama :</string>
+    <string name="ntel">Nomor Telepon :</string>
 </resources>

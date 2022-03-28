@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
         btnLogin=findViewById(R.id.btSignin);
         edEmail=findViewById(R.id.edEmail);
         edPassword=findViewById(R.id.edPassword);
-        btnLogin.setOnClickListener(new View.OnClickListener() {
 
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 nama = edEmail.getText().toString();
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                         b.putString("a", nama.trim());
                         b.putString("b", password.trim());
 
-                        Intent i = new Intent(getApplicationContext(), Kedua.class);
+                        Intent i = new Intent(getApplicationContext(), HomeActivity.class);
                         //memasukkan bundle kedalam intent
                         i.putExtras(b);
                         //berpindah ke halaman lain

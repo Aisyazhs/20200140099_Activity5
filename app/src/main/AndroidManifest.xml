@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tugasku">
         <activity
+            android:name=".ListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LihatdataActivity"
+            android:parentActivityName=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".DaftarActivity"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".Kedua"
